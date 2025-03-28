@@ -1,0 +1,27 @@
+
+
+1.Yukarıdaki görselde gerçekleşen komut adımlarını açıklayınız?
+Komut 1: Masaüstüne geçiş yaptı.
+Komut 2: Touch komutu ile güvenlik.txt adında bir dosya oluşturdu.
+Komut 3: Bulunduğu dizin içerisinde ls komutu ile dizindeki dosyaları listeliyor.
+Komut 4: Güvenlik.txt adlı dosya içerisine yeni metinler ekliyor.
+Komut 5: Güvenlik.txt dosyasını cat komutu ile okuyor.
+Komut 6: Dosya üzerine cat >> komutu ile yeniden ekleme yapıyor.
+Komut 7: cat komutu ile dosyayı tekrardan görüntülüyor.
+
+2."cat -n /etc/passwd" komutunun işlevini açıklayınız?
+Açıklama: passwd içerisinde bulunan yazıları düzenli bir şekilde sıralama yapıyor.
+
+3. $ echo Açık Kaynak > ders1.txt
+   $ echo İşletim Sistemi > ders2.txt
+   $ cat ders1.txt ders2.txt
+Yukarıdaki komut bloğu çalıştırıldığında ekran çıktısı ne olur?
+Ekran Çıktısı: Açık Kaynak
+               İşletim Sistemi
+
+4. "Deneme.txt" dokümanı içerisinde 100 satırlık paragraf bulunmaktadır. Paragrafın sadece 2 satırını görüntülemek için kullanılan komutu yazınız?
+Komut: more -n 2 deneme.txt
+
+5. Sistem yapılandırma dosyaları içerisinde bulunan "passwd" dokümanının ilk ve son 5 satırını görüntülemek için kullanılan komutu yazınız?
+Komut: head -n 5 /etc/passwd
+Komut: fail -n 5 /etc/passwd
