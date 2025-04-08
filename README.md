@@ -14,4 +14,3 @@
 <li> Paket kurulumları ve sistem güncellemeleri </li>
 <li> Shell komutları ve otomasyon işlemleri </li>
 <li> Dosya/dizin paylaşımı ve erişim kontrolleri </li>
-<li> 11.Hafta - Komut satırı temelleri: Kullanıcı işlemleri </li>
