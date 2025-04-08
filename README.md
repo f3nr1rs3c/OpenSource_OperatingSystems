@@ -20,18 +20,6 @@ Ders Bilgileri:
 <li> 13.Hafta - Komut satırı temelleri: Program kurma, kaldırma ve sistem güncelleme </li>
 <li> 14.Hafta - Parrot OS yapısı ve temel çalışma mantığı </li>
 
-## Haftalık ders konuları içerisinde anlatımı gerçekleştirilen komutlar Öğr. Gör. Çisem YAŞAR tarafından oluşturulmuştur.
-
-## Bu Github paylaşımının IEEE ve APA formatlarınada atıf verilme şekli:
-- IEEE--> C. Yasar, "OPEN-SOURCE-OPERATING-SYSTEM" GitHub, [Online]. Erişim Linki: https://github.com/cyasar34/OPEN-SOURCE-OPERATING-SYSTEMS  Son Erişim Tarihi: Gün Ay Yıl.
-- APA--> Yasar, C. (2024). OPEN-SOURCE-OPERATING-SYSTEM[GitHub Deposu]. GitHub. Erişim Linki: https://github.com/cyasar34/OPEN-SOURCE-OPERATING-SYSTEMS  Son Erişim Tarihi: Gün Ay Yıl.
-
-  
-> **Proje Durumu:** İlgili dokümanların paylaşımı ders kapsamında gerçekleştirilmiştir. GitHub bölümünden beğeni bildirimi olarak bir yıldız vererek çalışmalarımı destekleyebilirsiniz. <br>
-> **Katkıda Bulunma:** Dokümanlarınızda kullanılacaksanız ilgili atıf yöntemlerini kullanmanız ve haber vermeniz çok önemlidir. <br>
-> **Lisans:** MIT Lisansı altında yayımlandı
-
-
 ## BTP152 Coded OPEN SOURCE OPERATING SYSTEMS - PARDUS, KALI LINUX, PARROT OS <br>
 
 Course Information:
@@ -53,14 +41,3 @@ Course Information:
 <li> Week 12 - Command line basics: Network commands </li>
 <li> Week 13 - Command line basics: Installing, uninstalling and updating programs </li>
 <li> Week 14 - Parrot OS structure and basic operating logic </li>
-
-## The codes that are explained in the weekly lecture topics Lecturer. Gör. It was created by Çisem YAŞAR.
-
-## How this Github post is cited in IEEE and APA formats:
-- IEEE--> C. Yasar, “OPEN-SOURCE-OPERATING-SYSTEM” GitHub, [Online]. Access Link: https://github.com/cyasar34/OPEN-SOURCE-OPERATING-SYSTEMS Last Accessed Date: Day Month Year.
-- APA--> Yasar, C. (2024). OPEN-SOURCE-OPERATING-SYSTEM[GitHub Repository]. GitHub. Retrieved from: https://github.com/cyasar34/OPEN-SOURCE-OPERATING-SYSTEMS Last Accessed: Day Month Year.
-
-> **Project Status:** The sharing of the relevant documents has been realized within the scope of the course. You can support my work by giving a star as a thumbs up notification from the GitHub section. <br>
-> **Contribution:** It is very important that you use the relevant citation methods and notify us if you will be used in your documents. <br>
-> **License:** Released under the MIT License
-  
