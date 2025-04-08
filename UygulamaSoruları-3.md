@@ -31,45 +31,46 @@
 | P3    | 7                 | 3       |
 | P4    | 5                 | 2       |
 
-*Round Robin Algoritması* ile işlem sırası:
-1. *P1 (Kalan süre(Başlangıç): 10ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 5ms)*
-2. *P2 (Kalan süre(Başlangıç): 12ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 7ms)*
-3. *P3 (Kalan süre(Başlangıç): 7ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 2ms)*
-4. *P4 (Kalan süre(Başlangıç): 5ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 0 ms)*
-5. *P1 (Kalan süre(Başlangıç): 5ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 0ms)*
-6. *P2 (Kalan süre(Başlangıç): 70ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 2ms)*
-7. *P3 (Kalan süre(Başlangıç): 2ms, İşlem Süresi(q=5): 2ms, Kalan Süre(Bitiş): 0ms)*
-8. *P2 (Kalan süre(Başlangıç): 2ms, İşlem Süresi(q=5): 2ms, Kalan Süre(Bitiş): 0ms)*
+**Round Robin Algoritması ile işlem sırası:**
+1. **P1** *(Kalan süre(Başlangıç): 10ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 5ms)*
+2. **P2** *(Kalan süre(Başlangıç): 12ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 7ms)*
+3. **P3** *(Kalan süre(Başlangıç): 7ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 2ms)*
+4. **P4** *(Kalan süre(Başlangıç): 5ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 0 ms)*
+5. **P1** *(Kalan süre(Başlangıç): 5ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 0ms)*
+6. **P2** *(Kalan süre(Başlangıç): 70ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 2ms)*
+7. **P3** *(Kalan süre(Başlangıç): 2ms, İşlem Süresi(q=5): 2ms, Kalan Süre(Bitiş): 0ms)*
+8. **P2** *(Kalan süre(Başlangıç): 2ms, İşlem Süresi(q=5): 2ms, Kalan Süre(Bitiş): 0ms)*
 
 ---
 
-# Dosya Erişim Hakları
-Dosya: dr-xrw-r-- 2 root root 4096 Kas 5 01:02 bin
-- *d*: Bu bir dizindir.
-- *r-x*: Sahibi (root) dizini okuyabilir ve çalıştırabilir, yazamaz.
-- *rw-*: Grup, dizini okuyabilir ve yazabilir, çalıştırma yetkisi yoktur.
-- *r--*: Diğer kullanıcılar dizini sadece okuyabilir.
+# dr-xrw-r-- 2 root root 4096 Kas 5 01:02 bin 
+**Yukarıda verilmiş olan dosyanın erişim haklarını açıklayınız?**
+- `d`: Bu bir dizindir (directory) olduğunu gösterir.
+- `r-x`: Sahibi (root) dizini okuyabilir(`r`) ve çalıştırabilir (`x`), yazma yetkisi yoktur.
+- `rw-`: Grup (root), dizini okuyabilir(`r`) ve yazabilir(`w`), çalıştırma yetkisi yoktur.
+- `r--`: Diğer kullanıcılar dizini sadece okuyabilir(`r`), yazma ve çalıştırma yetkisi yoktur.
 
 ---
 
-# Bulut Bilişim Hizmet Modelleri
-1. *IaaS (Infrastructure as a Service)*: Fiziksel altyapı hizmetleri sunar. Örnek: AWS EC2.
-2. *PaaS (Platform as a Service)*: Uygulama geliştirme platformları sağlar. Örnek: Google App Engine.
-3. *SaaS (Software as a Service)*: Yazılım hizmetleri sunar. Örnek: Dropbox.
+# Bulut bilişim hizmet modelleri nelerdir?
+1. **IaaS (Infrastructure as a Service)**: Fiziksel altyapı hizmetleri sunar. **Örnek**: *Amazon EC2, Microsoft Azure VM*
+2. **PaaS (Platform as a Service)**: Uygulama geliştirme platformları sağlar. **Örnek**: *Google App Engine, Heroku*
+3. **SaaS (Software as a Service)**: Yazılım hizmetleri sunar. **Örnek**: *Gmail, Google Docs, Microsoft 365*
 
 ---
 
-# Sanallaştırma Teknolojileri Grupları
-1. *Donanım Sanallaştırması*: Örnek: VMware ESXi.
-2. *İşletim Sistemi Seviyesi Sanallaştırma*: Örnek: Docker.
-3. *Uygulama Sanallaştırması*: Örnek: Citrix XenApp.
+# Sanallaştırma teknolojileri, sanallaştırmanın kullanıldığı katmana ve kullanılan teknolojiye göre gruplara ayrılmaktadır. Bu gruplar nelerdir örnekle açıklayınız?
+1. **Donanım Sanallaştırması**: **Örnek**: *VMware ESXi, Microsoft Hyper-V, KVM*
+2. **İşletim Sistemi Seviyesi Sanallaştırma**: **Örnek**: Docker, LXC (Linux Containers)*
+3. **Masaüstü Sanallaştırma**: **Örnek**: *Citrix, VMware Horizon*
+4. **Uygulama Sanallaştırma**: **Örnek**: *Microsoft App-V*
 
 ---
 
-# Hypervizör, SELinux, Docker Containers ve Virtualization Kavramları
-1. *Hypervizör*: Sanal makineleri çalıştıran yazılım (örnek: Hyper-V).
-2. *SELinux*: Linux için güvenlik modülü; erişim kontrolleri sağlar.
-3. *Docker Containers*: Uygulamaları konteynerler içinde çalıştıran hafif sanallaştırma teknolojisi.
-4. *Virtualization*: Fiziksel kaynakları sanal olarak birden fazla ortama böler.
+# Hipervizör, SELinux, Docker Containers ve Virtualization kavramlarını açıklayınız?
+1. **Hypervizör**: Fiziksel donanım üzerinde birden fazla sanal makine çalıştırılmasını sağlayan yazılımdır. **Örnek**: *VMware ESXi, KVM, Hyper-V*.
+2. **SELinux**: Linux sistemlerinde zorlama tabanlı (mandatory) erişim kontrolü sağlayan güvenlik modülüdür.
+3. **Docker Containers**: Uygulamaların bağımlılıklarıyla birlikte izole şekilde çalışmasını sağlayan hafif sanal ortamlardır.
+4. **Virtualization**: Fiziksel kaynakların (donanım, işletim sistemi) sanal ortamlara bölünerek birden çok sistem çalıştırılmasıdır.
 
 ---
