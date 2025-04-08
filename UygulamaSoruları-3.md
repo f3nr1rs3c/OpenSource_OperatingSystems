@@ -1,33 +1,30 @@
-# Özgür Yazılım Felsefesi ve Açık Kaynak Kodlu Yazılım Kavramı
-Özgür yazılım, kullanıcıların yazılımı çalıştırma, inceleme, değiştirme ve dağıtma özgürlüğüne sahip olduğu bir felsefedir. Temel olarak dört özgürlük içerir:
-1. Yazılımı herhangi bir amaçla çalıştırabilme.
-2. Yazılımın nasıl çalıştığını inceleme ve değiştirme.
-3. Yazılım kopyalarını dağıtma.
-4. Değiştirilen sürümleri topluluğa sunabilme.
+# AÇIK KAYNAK İŞLETİM SİSTEMLERİ DERSİ GENEL TEKRAR SORULARI
 
-Açık kaynak kodlu yazılım, özgür yazılım felsefesini teknik olarak destekleyen bir kavramdır. Ancak her açık kaynak yazılım, özgür yazılım değildir.
+**Özgür yazılım felsefesi nedir? Açık kaynak kodlu yazılım kavramı ile arasındaki farkı açıklayınız?**
+- **Cevap: Özgür yazılım felsefesi**, kullanıcıya yazılımı çalıştırma, kopyalama, dağıtma, inceleme ve değiştirme özgürlüklerini tanır.
+- **Cevap: Açık kaynak yazılım**, kaynak kodu açık olan yazılımdır; ancak her zaman bu özgürlükleri tam anlamıyla sunmayabilir.
+- **Aralarında fark:** Her özgür yazılım açık kaynaklıdır, fakat her açık kaynaklı yazılım özgür değildir.
+---
+
+# İşletim Sistemi Katmanları nelerdir?
+1. **Kernal (Çekirdek)**: Donanım yönetimi ve sistem kaynaklarının kontrolünü sağlar.
+2. **Hizmet Katmanı**: Çekirdek hizmetleri üzerine kurulu sistem işlevlerini sağlar.
+3. **Uygulama Katmanı**: Kullanıcıların doğrudan kullandığı uygulamaları barındırır.
+4. **Shell**: Kullanıcı komutlarını çekirdeğe ileten bir arayüzdür.
 
 ---
 
-# İşletim Sistemi Katmanları
-1. *Kernal (Çekirdek)*: Donanım yönetimi ve sistem kaynaklarının kontrolünü sağlar.
-2. *Hizmet Katmanı*: Çekirdek hizmetleri üzerine kurulu sistem işlevlerini sağlar.
-3. *Uygulama Katmanı*: Kullanıcıların doğrudan kullandığı uygulamaları barındırır.
-4. *Shell*: Kullanıcı komutlarını çekirdeğe ileten bir arayüzdür.
+# CPU'nun işlemci zamanını planlaması için kullanılan algoritmaları nelerdir?
+1. **First-Come, First-Served (FCFS)**: İlk Gelen, İlk Hizmet Edilen.
+2. **Round Robin**: Zaman Dilimli.
+3. **Priority Scheduling**: Öncelikli Planlama.
+4. **Shortest Job First (SJF)**: En Kısa İşlem Süresi Kalan.
 
 ---
 
-# CPU Zamanlama Algoritmaları
-1. *FCFS (First-Come, First-Served)*: İlk gelen işlem öncelikli olarak yürütülür.
-2. *SJF (Shortest Job First)*: Kısa işler öncelikli olarak yürütülür.
-3. *Priority Scheduling*: İşlemler öncelik seviyelerine göre sıralanır.
-4. *Round Robin*: İşlemler zaman dilimlerine bölünerek sırayla yürütülür.
+# Aşağıdaki tabloda CPU’da işletilmek üzere bir kuyruk tablosu verilmiştir. Tablodaki bilgiler kullanılarak q=5 için planlama algoritmalarında işletim sırasını oluşturunuz?
 
----
-
-# CPU Planlama Algoritması: Round Robin (q=5)
-Tablo:
-| İşlem | İşlem Süresi (ms) | Öncelik |
+| İşlem | İşlem yürütme süresi(ms) | Öncelik |
 |-------|-------------------|---------|
 | P1    | 10                | 1       |
 | P2    | 12                | 0       |
@@ -35,14 +32,14 @@ Tablo:
 | P4    | 5                 | 2       |
 
 *Round Robin Algoritması* ile işlem sırası:
-1. P1 (5ms çalışır, kalan: 5ms)
-2. P2 (5ms çalışır, kalan: 7ms)
-3. P3 (5ms çalışır, kalan: 2ms)
-4. P4 (5ms çalışır, kalan: 0ms)
-5. P1 (5ms çalışır, kalan: 0ms)
-6. P2 (5ms çalışır, kalan: 2ms)
-7. P3 (2ms çalışır, kalan: 0ms)
-8. P2 (2ms çalışır, kalan: 0ms)
+1. *P1 (Kalan süre(Başlangıç): 10ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 5ms)*
+2. *P2 (Kalan süre(Başlangıç): 12ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 7ms)*
+3. *P3 (Kalan süre(Başlangıç): 7ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 2ms)*
+4. *P4 (Kalan süre(Başlangıç): 5ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 0 ms)*
+5. *P1 (Kalan süre(Başlangıç): 5ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 0ms)*
+6. *P2 (Kalan süre(Başlangıç): 70ms, İşlem Süresi(q=5): 5ms, Kalan Süre(Bitiş): 2ms)*
+7. *P3 (Kalan süre(Başlangıç): 2ms, İşlem Süresi(q=5): 2ms, Kalan Süre(Bitiş): 0ms)*
+8. *P2 (Kalan süre(Başlangıç): 2ms, İşlem Süresi(q=5): 2ms, Kalan Süre(Bitiş): 0ms)*
 
 ---
 
