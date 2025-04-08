@@ -1,6 +1,3 @@
-
-![428024419-540ab101-bcc9-4c4d-9540-f5c548b4bf67](https://github.com/user-attachments/assets/8028c962-de2d-4c4a-9ae1-5ac6f4f897c2)
-
 **1.Paket yöneticisi (apt) hakkında bilgiyi görüntülemek için kullanılan komutu yazınız?**
 - Komut: apt --help
 
