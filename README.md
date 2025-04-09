@@ -1,6 +1,3 @@
-![wp10273648-linux-command-wallpapers (1)](https://github.com/user-attachments/assets/3653e1d9-0795-4e35-bcd5-6874d560b2c2)
-
-
 ## Açık Kaynak İşletim Sistemleri (Pardus, Kali Linux, Parrot OS) <br>
 
 📌 Dersin Amacı:
