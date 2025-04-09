@@ -1,7 +1,7 @@
 ## Açık Kaynak İşletim Sistemleri (Pardus, Kali Linux, Parrot OS) <br>
 
 📌 Dersin Amacı:
-<p align="justify">Bu derste, açık kaynak işletim sistemlerini kurarak, kullanım ve yönetim süreçlerinde temel becerilerin kazandırılması hedeflenmektedir. Katılımcılar, sistemlerin yapısını öğrenip, masaüstü kullanımı, ağ yapılandırmaları ve kullanıcı yönetimi gibi işlemleri uygulamalı şekilde gerçekleştireceklerdir.</p>
+<p align="justify">Bu derste, açık kaynak işletim sistemlerini kurarak, kullanım ve yönetim süreçlerinde temel becerilerin kazandırılması hedeflenmektedir. Sistemlerin yapısını öğrenip, masaüstü kullanımı, ağ yapılandırmaları ve kullanıcı yönetimi gibi işlemleri uygulamalı şekilde gerçekleştireceklerdir.</p>
 
 **📚 Ders İçeriği:**
 <li> Açık kaynak işletim sistemlerinin genel yapısı </li>
