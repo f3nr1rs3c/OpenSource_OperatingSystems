@@ -1,5 +1,6 @@
 
-![428024419-540ab101-bcc9-4c4d-9540-f5c548b4bf67](https://github.com/user-attachments/assets/d7efa5b4-de05-4de6-b765-4044579dd9b8)
+<img width="656" alt="Ekran Resmi 2025-04-10 22 53 51" src="https://github.com/user-attachments/assets/885c5a19-59dd-43df-8a0f-1a3454835ada" />
+
 
 **1. Yukarıdaki görselde gerçekleşen komut adımlarını açıklayınız?**
 - Komut 1: Masaüstüne geçiş yaptı.
